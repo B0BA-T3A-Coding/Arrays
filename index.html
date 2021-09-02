@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Arrays</title>
+    </head>
+    <body>
+        <p>How to declare an Array?
+            <h4 id="declare"></h4>
+        </p>
+        <hr>
+        <p>How to fetch the first element in the Array?
+            <h4 id="first"></h4>
+        </p>
+        <hr>
+        <p>How to fetch the second element in the Array?
+            <h4 id="second"></h4>
+        </p>
+        <hr>
+        <p>How to fetch the third element in the Array?
+            <h4 id="third"></h4>
+        </p>
+        <hr>
+        <p>How to fetch the fourth element in the Array?
+            <h4 id="fourth"></h4>
+        </p>
+        <hr>
+        <p>How to get the length of an Array?
+            <h4 id="length"></h4>
+        </p>
+        <hr>
+        <p>How to add an element?
+            <h4 id="addE"></h4>
+        </p>
+        <script>
+            var family=["Father", "Mother", "Sister","Brother"];
+            console.log(family);
+            document.getElementById("declare").innerHTML=family;
+            
+            var first=family[0];
+            console.log(first);
+            document.getElementById("first").innerHTML=first;
+
+            var second=family[1];
+            console.log(second);
+            document.getElementById("second").innerHTML=second;
+
+            var third=family[2];
+            console.log(third);
+            document.getElementById("third").innerHTML=third;
+ 
+            var fourth=family[3];
+            console.log(fourth);
+            document.getElementById("fourth").innerHTML=fourth;
+
+            var length=family.length;
+            console.log(length);
+            document.getElementById("length").innerHTML=length;
+
+            family.push("Baby");
+            console.log(family);
+            document.getElementById("addE").innerHTML=family;
+        </script>
+    </body>
+</html>
